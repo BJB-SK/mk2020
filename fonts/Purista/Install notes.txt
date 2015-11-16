@@ -1,0 +1,7 @@
+To install in Windows based system just double click the file
+
+It will work in video editing program and photoshop/SAI without mods
+
+To uninstall search for "Fonts" in control panel and "add/remove fonts" delete the one you don't need
+
+Use it to good use (or not)
