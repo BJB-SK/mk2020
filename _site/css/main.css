@@ -303,7 +303,8 @@ body {
 
 #mainNav .social {
   font-size: 2.1em;
-  margin: 8px 0 0 20px; }
+  margin: 8px 0 0 20px;
+  text-decoration: none; }
   #mainNav .social:hover {
     text-decoration: none; }
 
