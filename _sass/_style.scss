@@ -14,3 +14,15 @@
 	width:100%;
 	height:100%;
 }
+
+#contact {
+	.facebook
+		p {
+			font-size: 0.9em;
+			word-wrap: break-word;
+		}
+	.email
+	 	p {
+		font-size: 1em;
+	}
+}
