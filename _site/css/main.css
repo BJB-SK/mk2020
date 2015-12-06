@@ -301,6 +301,12 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #222; }
 
+#mainNav .social {
+  font-size: 2.5em;
+  margin: 5px 0 0 20px; }
+  #mainNav .social:hover {
+    text-decoration: none; }
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;

@@ -1,3 +1,11 @@
+#mainNav .social {
+  font-size: 2.5em;
+	margin: 5px 0 0 20px;
+
+  &:hover {
+		text-decoration: none;
+	}
+}
 
 .video-container {
 	position:relative;
