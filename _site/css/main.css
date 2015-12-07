@@ -308,6 +308,9 @@ body {
   #mainNav .social:hover {
     text-decoration: none; }
 
+.fa-youtube-play {
+  color: #bb0000; }
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -331,4 +334,7 @@ p {
   font-size: 1em; }
 
 .portfolio-box .portfolio-box-caption {
-  background: rgba(51, 122, 183, 0.4); }
+  background: rgba(51, 122, 183, 0.8); }
+
+.portfolio-box .portfolio-box-caption .text-faded {
+  font-size: 2em !important; }
