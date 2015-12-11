@@ -62,7 +62,7 @@
  * Registration.
  */
 #registracia {
-  min-height: 400px;
+  min-height: 600px;
 }
 
 /**
@@ -93,6 +93,10 @@
       margin: 0 auto;
     }
   }
+}
+
+.portfolio-box.speaker-box {
+  max-width: none;
 }
 
 /**

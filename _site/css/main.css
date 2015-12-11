@@ -351,7 +351,7 @@ body {
  * Registration.
  */
 #registracia {
-  min-height: 400px; }
+  min-height: 600px; }
 
 /**
  * Program.
@@ -377,6 +377,9 @@ body {
     padding-bottom: 6px; }
     #hero-banner .text-bottom a {
       margin: 0 auto; }
+
+.portfolio-box.speaker-box {
+  max-width: none; }
 
 /**
  * Contact.
