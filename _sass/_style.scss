@@ -1,5 +1,15 @@
 .navbar-default {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.5);
+
+  .navbar-nav {
+    a.page-scroll {
+      color: rgb(34, 34, 34);
+
+      &:hover {
+        color: rgb(51, 122, 183);
+      }
+    }
+  }
 }
 
 #mainNav .social {
