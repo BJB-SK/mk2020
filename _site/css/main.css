@@ -301,6 +301,9 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #222; }
 
+/**
+ * Navigation.
+ */
 .navbar-default {
   background: rgba(255, 255, 255, 0.5); }
   .navbar-default .navbar-nav a.page-scroll {
@@ -318,6 +321,9 @@ body {
 .fa-youtube-play {
   color: #bb0000; }
 
+/**
+ * Initial opening content - video etc.
+ */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -332,16 +338,9 @@ body {
   width: 100%;
   height: 100%; }
 
-#contact {
-  padding-bottom: 30px; }
-  #contact .facebook
-  p {
-    font-size: 1em;
-    word-wrap: break-word; }
-  #contact .email
-  p {
-    font-size: 1em; }
-
+/**
+ * Portfolio images.
+ */
 .portfolio-box .portfolio-box-caption {
   background: rgba(51, 122, 183, 0.8); }
 
@@ -353,6 +352,44 @@ body {
  */
 #registracia {
   min-height: 400px; }
+
+/**
+ * Program.
+ */
+#hero-banner {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../img/hero-banner.jpeg");
+  text-align: center;
+  color: white;
+  min-height: 27%; }
+  #hero-banner .text-bottom {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 6px; }
+    #hero-banner .text-bottom a {
+      margin: 0 auto; }
+
+/**
+ * Contact.
+ */
+#contact {
+  padding-bottom: 30px; }
+  #contact .facebook
+  p {
+    font-size: 1em;
+    word-wrap: break-word; }
+  #contact .email
+  p {
+    font-size: 1em; }
 
 /**
  * Map.
