@@ -340,7 +340,13 @@ p {
   font-size: 2em !important; }
 
 /**
- * Map
+ * Registration.
+ */
+#registracia {
+  min-height: 400px; }
+
+/**
+ * Map.
  */
 #map {
   padding: 0 0; }
