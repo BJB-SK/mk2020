@@ -68,7 +68,7 @@
 /**
  * Program.
  */
-#hero-banner {
+.banner {
   position: relative;
   width: 100%;
   min-height: auto;
@@ -77,10 +77,8 @@
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("../img/hero-banner.jpeg");
   text-align: center;
   color: white;
-  min-height: 27%;
 
   .text-bottom {
     text-align: center;
@@ -93,6 +91,16 @@
       margin: 0 auto;
     }
   }
+}
+
+#hero-banner {
+  background-image: url("../img/hero-banner.jpeg");
+  min-height: 30%;
+}
+
+#musical-banner {
+  background-image: url("../img/dobaladova-banner.jpg");
+  min-height: 38%;
 }
 
 .portfolio-box.speaker-box {
