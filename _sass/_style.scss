@@ -1,0 +1,148 @@
+/**
+ * Navigation.
+ */
+.navbar-default {
+  background: rgba(255, 255, 255, 0.5);
+
+  .navbar-nav {
+    a.page-scroll {
+      color: rgb(34, 34, 34);
+
+      &:hover {
+        color: rgb(51, 122, 183);
+      }
+    }
+  }
+}
+
+#mainNav .social {
+  font-size: 2.1em;
+	margin: 8px 0 0 20px;
+  text-decoration: none;
+
+  &:hover {
+		text-decoration: none;
+	}
+}
+
+.fa-youtube-play {
+  color: #bb0000;
+}
+
+/**
+ * Initial opening content - video etc.
+ */
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/**
+ * Portfolio images.
+ */
+.portfolio-box .portfolio-box-caption {
+  background: rgba(51, 122, 183, 0.8);
+}
+
+.portfolio-box .portfolio-box-caption .text-faded {
+  font-size: 2em !important;
+}
+/**
+ * Registration.
+ */
+#registracia {
+  min-height: 600px;
+}
+
+/**
+ * Program.
+ */
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+
+  .text-bottom {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 14px;
+
+    a {
+      margin: 0 auto;
+    }
+  }
+}
+
+#hero-banner {
+  background-image: url("../img/hero-banner.jpg");
+  min-height: 32%;
+}
+
+#musical-banner {
+  background-image: url("../img/dobaladova-banner.jpg");
+  min-height: 42%;
+}
+
+.portfolio-box.speaker-box {
+  max-width: none;
+}
+
+/**
+ * Contact.
+ */
+#contact {
+  padding-bottom: 30px;
+	.facebook
+		p {
+			font-size: 1em;
+			word-wrap: break-word;
+		}
+	.email
+	 	p {
+		font-size: 1em;
+	}
+}
+
+/**
+ * Map.
+ */
+ #map {
+   padding: 0 0;
+ }
+ .map-container {
+   position: relative;
+   padding-bottom: 30%;
+   padding-top: 120px;
+   height: 0;
+   overflow: hidden;
+ }
+
+ .map-container iframe,
+ .map-container object,
+ .map-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ }
