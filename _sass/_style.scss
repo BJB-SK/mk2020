@@ -93,6 +93,24 @@
   }
 }
 
+/* Seminars */
+.portfolio-box-caption-permanent {
+  opacity: 1 !important;
+  background: transparent !important;
+}
+
+.portfolio-box {
+  &:hover {
+    .portfolio-box-caption-permanent {
+      opacity: 0 !important;
+    }
+  }
+}
+
+#seminars {
+
+}
+
 #hero-banner {
   background-image: url("../img/hero-banner.jpg");
   min-height: 32%;
