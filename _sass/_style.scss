@@ -1,3 +1,8 @@
+
+.text-small {
+  font-size: 0.9em;
+}
+
 /**
  * Navigation.
  */
@@ -107,8 +112,36 @@
   }
 }
 
-#seminars {
+#program {
+  .seminar-title {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  .text-small {
+    font-size: 1em !important;
+  }
 
+  .text-with-image {
+    margin-top: 35px;
+  }
+
+  .pic-left {
+    text-align: left;
+
+    img {
+      float: left;
+      margin-bottom: 10px;
+    }
+  }
+
+  .pic-right {
+    text-align: right;
+
+    img {
+      float: right;
+    }
+  }
 }
 
 #hero-banner {
