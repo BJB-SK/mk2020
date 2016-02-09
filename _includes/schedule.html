@@ -1,0 +1,30 @@
+<section id="schedule" >
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="section-heading text-center">Program</h2>
+        <hr class="dark">
+
+
+        {% for day in site.data.schedule %}
+        <div class="day row" date="{{day.date}}">
+          <h3>{{day.day}}</h3>
+            {% for slot in day.slots %}
+            <h4>{{slot.start}}</h4>
+              <div start="{{slot.start}}" end="{{slot.end}}" class="slots col-xs-12">
+                {% for item in slot.items %}
+                  <div class="item col-xs-12 col-sm-6 col-md-4">
+                    <span class="seminar-title">{{item.title}}</span>
+                    <br />
+                    <span class="seminar-speaker"><small>{{item.speaker}}</small></span>
+                  </div>
+                {% endfor %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
