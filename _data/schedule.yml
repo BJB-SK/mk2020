@@ -1,23 +1,30 @@
-- day: Piatok
+- section: Piatok
   date: 02.19.2016
   slots:
-    - start: "10:00"
-      end:  "10:59"
-      items:
-        - title: JEŽIŠOVE NAPOMENUTIA PRE BOHATÝCH
-          speaker: Ben Uhrin
+    - start: "16:00"
+      end:  "19:00"
+      title: Registrácia
+    - start: "17:00"
+      end:  "19:00"
+      title: Večera
+    - start: "19:05"
+      end:  "21:00"
+      title: Hlavný Program 1
+      speaker: Chvály BA Viera, téma S. Lacho
     - start: "12:00"
       end:  "12:59"
+      title: "Seminare"
       items:
         - title: ČO TO MÁŠ V RUKE?
           speaker: Robert Nagypal
         - title: MOJE REAKCIE NA STRES
           speaker: Pali Mrstina
-- day: Sobota
+- section: Sobota
   date: 02.19.2016
   slots:
     - start: "10:00"
       end:  "10:59"
+      title: "Seminare"
       items:
         - title: INŠPIRÁCIA BIBLIE
           speaker: Ben Uhrin
@@ -31,15 +38,7 @@
           speaker: Ben Uhrin
     - start: "12:00"
       end:  "12:59"
+      title: "Seminare"
       items:
         - title: Seminar 1
           speaker: Martin Tobak
-- day: DEPO
-  slots:
-    - start: "Piatok"
-      items:
-        - title: "22:00 – 24:00"
-    - start: "Sobota"
-      items:
-        - title: "12:00 – 18:00"
-        - title: "22:00 – 01:00"
