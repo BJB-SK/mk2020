@@ -11,34 +11,96 @@
       end:  "21:00"
       title: Hlavný Program 1
       speaker: Chvály BA Viera, téma S. Lacho
-    - start: "12:00"
-      end:  "12:59"
-      title: "Seminare"
+    - start: "21:30"
+      title: Druhá večera
+    - start: "22:00"
+      title: Koncert HERO
+    - start: "22:00"
+      end:  "23:00"
+      title: "Semináre"
       items:
-        - title: ČO TO MÁŠ V RUKE?
-          speaker: Robert Nagypal
-        - title: MOJE REAKCIE NA STRES
-          speaker: Pali Mrstina
+        - title: Panelová Diskusia Politika
+    - start: "22:00"
+      end:  "24:00"
+      title: Športy, DEPO, bufet, kaviareň
 - section: Sobota
-  date: 02.19.2016
+  date: 02.20.2016
   slots:
-    - start: "10:00"
-      end:  "10:59"
-      title: "Seminare"
+    - start: "07:15"
+      end: "08:40"
+      title: Raňajky
+    - start: "08:40"
+      end: "09:00"
+      title: Rozcvička na bránicu
+    - start: "09:05"
+      end: "10:35"
+      title: Hlavný Program 2
+      speaker: Chvály BB, téma S. Lacho
+    - start: "10:45"
+      end:  "12:00"
+      title: "Semináre"
       items:
-        - title: INŠPIRÁCIA BIBLIE
-          speaker: Ben Uhrin
-        - title: Seminar 1
-          speaker: Zoli Kakas
-        - title: Seminar 1
-          speaker: Robert Nagypal
-        - title: Seminar 1
-          speaker: Martin Tobak
-        - title: Seminar 1
-          speaker: Ben Uhrin
+        - title: Má niekto právo byť mojou autoritou?
+          speaker: Danka Hanesová
+        - title: Osobnosť človeka a duchovný život
+          speaker: Marek Macák
+        - title: Čo to máš v ruke?
+          speaker: Pali Mrština
+        - title: Vstal Ježiš z mŕtvych?
+          speaker: Richard Nagypal
     - start: "12:00"
-      end:  "12:59"
-      title: "Seminare"
+      end:  "14:00"
+      title: "Obed"
+    - start: "14:00"
+      end: "18:00"
+      title: Športy, modlitebná miestnosť, predaj kníh, DEPO, kaviareň, bufet
+    - start: "16:00"
+      end: "17:00"
+      title: 5 proti 5
+    - start: "16:00"
+      end: "17:30"
+      title: Semináre a svedectvá
       items:
-        - title: Seminar 1
-          speaker: Martin Tobak
+        - title: Vstal Ježiš z mŕtvych?
+          speaker: Richard Nagypal
+        - title: Svedectvá
+        - title: Inšpirácia Biblie
+          speaker: Martin Tobák
+        - title: Viera a duševné zdravie
+          speaker: Michal Patarák
+        - title: Moje reakcie na stres
+          speaker: Marek Sonoga
+    - start: "17:30"
+      end: "19:15"
+      title: "Večera"
+    - start: "19:15"
+      end: "21:30"
+      title: Hlavný Program 3
+      speaker: Chvály Hurbanovo, téma S. Uhrin
+    - start: "21:45"
+      title: Druhá večera
+    - start: "22:15"
+      end: "23:30"
+      title: Muzikál, Doba ľadová v tvojom srdci
+    - start: "22:00"
+      end: "23:00"
+      title: Semináre
+      items:
+        - title: Poznaj, Miluj, Ži
+          speaker: Katka Azorová
+    - start: "22:00"
+      end: "01:00"
+      title: DEPO, kaviareň, bufet, modlitebná miestnosť, športy
+- section: Nedeľa
+  date: 02.21.2016
+  slots:
+    - start: "07:15"
+      end: "09:00"
+      title: Raňajky
+    - start: "09:00"
+      end: "11:50"
+      title: Hlavný Program 4
+      speaker: Chvály BA Palisády, téma P. Hanes
+    - start: "12:00"
+      end:  "14:00"
+      title: "Obed"

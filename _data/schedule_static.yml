@@ -34,8 +34,7 @@
   slots:
     - start: "Piatok"
       items:
-        - title: "24:00 – ?"
+        - title: "22:00 – 01:00"
     - start: "Sobota"
       items:
-        - title: "14:00 – 17:30"
-        - title: "22:00 – ?"
+        - title: "22:00 – 01:00"

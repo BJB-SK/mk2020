@@ -13,9 +13,17 @@
 
               {% for slot in section.slots %}
               <div class="slot {% cycle 'odd', 'even' %} clearfix">
-                <div class="col-xs-5 col-md-5 col-lg-4 time"><span>{{slot.start}} - {{slot.end}}</span></div>
+                <div class="col-xs-5 col-md-5 col-lg-4 time">
+                  <span>
+                    {% if slot.end %}
+                      {{slot.start}} - {{slot.end}}
+                    {% else %}
+                      {{slot.start}}
+                    {% endif %}
+                  </span>
+                </div>
                 <div class="col-xs-7 col-md-7 col-lg-8 title">
-                  <span>{{slot.title}}</span>
+                  <span>{{slot.title}}</span><br />
                   <span class="subtitle"><small>{{slot.speaker}}</small></span>
                 </div>
 
