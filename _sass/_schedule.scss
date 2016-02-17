@@ -14,7 +14,7 @@
 
   #schedule-static,
   #schedule-days {
-    background-color: #f0f0f0;
+    background-color: transparent;
     margin-bottom: 15px;
   }
 
@@ -23,15 +23,15 @@
   }
 
   .odd {
-    background-color: #e0e0e0;
+    background-color: #f0f0f0;
   }
   .even {
-    background-color: #f0f0f0;
+    background-color: transparent;
   }
 
   #schedule-static {
     .day {
-      background-color: #e0e0e0;
+      background-color: #f0f0f0;
       display: inline-block;
       width: 100%;
     }
@@ -39,7 +39,7 @@
 }
 
 .section {
-  background-color: #f0f0f0;
+  background-color: transparent;
   margin-bottom: 15px;
   padding: 12px;
 
@@ -49,5 +49,13 @@
 
   .item {
     padding-bottom: 10px;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+
+  .dark {
+    background-color: #e0e0e0 !important;
   }
 }

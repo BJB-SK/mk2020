@@ -464,24 +464,28 @@ body {
       padding: 100px 0; } }
   #schedule #schedule-static,
   #schedule #schedule-days {
-    background-color: #f0f0f0;
+    background-color: transparent;
     margin-bottom: 15px; }
   #schedule .slot {
     padding: 0.2em 0; }
   #schedule .odd {
-    background-color: #e0e0e0; }
-  #schedule .even {
     background-color: #f0f0f0; }
+  #schedule .even {
+    background-color: transparent; }
   #schedule #schedule-static .day {
-    background-color: #e0e0e0;
+    background-color: #f0f0f0;
     display: inline-block;
     width: 100%; }
 
 .section {
-  background-color: #f0f0f0;
+  background-color: transparent;
   margin-bottom: 15px;
   padding: 12px; }
   .section h3 {
     border-bottom: 1px solid #a2a2a2; }
   .section .item {
     padding-bottom: 10px; }
+  .section .bold {
+    font-weight: 600; }
+  .section .dark {
+    background-color: #e0e0e0 !important; }
