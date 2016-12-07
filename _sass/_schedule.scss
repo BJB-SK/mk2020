@@ -1,0 +1,61 @@
+#schedule {
+  padding: 15px 0;
+  transition: padding 1.5s ease;
+  -moz-transition: padding 1.5s ease;
+  -webkit-transition: padding 1.5s ease;
+
+  @media screen and (min-width:600px) {
+    padding: 40px 0;
+  }
+
+  @media screen and (min-width:800px) {
+    padding: 100px 0;
+  }
+
+  #schedule-static,
+  #schedule-days {
+    background-color: transparent;
+    margin-bottom: 15px;
+  }
+
+  .slot {
+    padding: 0.2em 0;
+  }
+
+  .odd {
+    background-color: #f0f0f0;
+  }
+  .even {
+    background-color: transparent;
+  }
+
+  #schedule-static {
+    .day {
+      background-color: #f0f0f0;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
+.section {
+  background-color: transparent;
+  margin-bottom: 15px;
+  padding: 12px;
+
+  h3 {
+    border-bottom: 1px solid #a2a2a2;
+  }
+
+  .item {
+    padding-bottom: 10px;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+
+  .dark {
+    background-color: #e0e0e0 !important;
+  }
+}

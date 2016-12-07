@@ -1,0 +1,40 @@
+- section: DEPO
+  slots:
+    - start: "Piatok"
+      items:
+        - title: "22:00 – 24:00"
+    - start: "Sobota"
+      items:
+        - title: "12:00 – 18:00"
+        - title: "22:00 – 01:00"
+- section: Kaviareň
+  slots:
+    - start: "Piatok"
+      items:
+        - title: "22:00 – 24:00"
+    - start: "Sobota"
+      items:
+        - title: "07:00 – 09:00"
+        - title: "12:00 – 18:00"
+        - title: "22:00 – 01:00"
+- section: Bufet
+  slots:
+    - start: "Piatok"
+      items:
+        - title: "22:00 – 24:00"
+    - start: "Sobota"
+      items:
+        - title: "07:00 – 09:00"
+        - title: "12:00 – 18:00"
+        - title: "22:00 – 01:00"
+    - start: "Nedeľa"
+      items:
+        - title: "07:00 – 10:00"
+- section: Športy
+  slots:
+    - start: "Piatok"
+      items:
+        - title: "22:00 – 01:00"
+    - start: "Sobota"
+      items:
+        - title: "22:00 – 01:00"

@@ -1,3 +1,7 @@
+.text-small {
+  font-size: 0.9em;
+}
+
 /**
  * Navigation.
  */
@@ -115,15 +119,61 @@
   }
 }
 
-#hero-banner {
-  background-image: url("../img/hero-banner.jpg");
-  min-height: 32%;
+/* Seminars */
+.portfolio-box-caption-permanent {
+  opacity: 1 !important;
+  background: transparent !important;
 }
 
-#musical-banner {
-  background-image: url("../img/dobaladova-banner.jpg");
-  min-height: 42%;
+.portfolio-box {
+  &:hover {
+    .portfolio-box-caption-permanent {
+      opacity: 0 !important;
+    }
+  }
 }
+
+#program {
+  .seminar-title {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  .text-small {
+    font-size: 1em !important;
+  }
+
+  .text-with-image {
+    margin-top: 35px;
+  }
+
+  .pic-left {
+    text-align: left;
+
+    img {
+      float: left;
+      margin-bottom: 10px;
+    }
+  }
+
+  .pic-right {
+    text-align: right;
+
+    img {
+      float: right;
+    }
+  }
+}
+
+//#hero-banner {
+//  background-image: url("../img/hero-banner.jpg");
+//  min-height: 32%;
+//}
+//
+//#musical-banner {
+//  background-image: url("../img/dobaladova-banner.jpg");
+//  min-height: 42%;
+//}
 
 .portfolio-box.speaker-box {
   max-width: none;

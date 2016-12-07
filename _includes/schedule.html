@@ -1,0 +1,83 @@
+<section id="schedule">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="section-heading text-center">Program</h2>
+        <hr class="dark">
+
+        <br />
+
+
+        <p class="text-faded text-center"><a href="/" class="btn  page-scroll">
+          <i class="fa fa-arrow-circle-o-left wow bounceIn text-primary"></i>
+          Späť na stránku
+        </a></p>
+
+        <div id="schedule-days" class="clearfix">
+          {% for section in site.data.schedule %}
+          <div class="section col-xs-12" date="{{section.date}}">
+            <h3>{{section.section}}</h3>
+
+              {% for slot in section.slots %}
+              <div class="slot {% cycle 'odd', 'even' %} clearfix {% if slot.classes %} {{slot.classes}} {% endif %}">
+                <div class="col-xs-5 col-md-5 col-lg-4 time">
+                  <span>
+                    {% if slot.end %}
+                      {{slot.start}} - {{slot.end}}
+                    {% else %}
+                      {{slot.start}}
+                    {% endif %}
+                  </span>
+                </div>
+                <div class="col-xs-7 col-md-7 col-lg-8 title">
+                  <span>{{slot.title}}</span><br />
+                  <span class="subtitle"><small>{{slot.speaker}}</small></span>
+
+                  <div start="{{slot.start}}" end="{{slot.end}}" class="slots">
+                    {% for item in slot.items %}
+                      <div class="item">
+                        <span class="seminar-title">- {{item.title}}</span>
+                        <br />
+                        <span class="seminar-speaker"><small>{{item.speaker}}</small></span>
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+
+              </div>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row schedule-static">
+      <div class="col-xs-12">
+        <div id="schedule-static" class="clearfix">
+          {% for section in site.data.schedule_static %}
+          <div class="section col-xs-6 col-md-3" date="{{section.date}}">
+            <h3>{{section.section}}</h3>
+              {% for slot in section.slots %}
+              <span class="day">{{slot.start}}</span>
+                <div start="{{slot.start}}" end="{{slot.end}}" class="slots">
+                  {% for item in slot.items %}
+                    <div class="item">
+                      <span class="seminar-title">{{item.title}}</span>
+                      <br />
+                      <span class="seminar-speaker"><small>{{item.speaker}}</small></span>
+                    </div>
+                  {% endfor %}
+                </div>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
