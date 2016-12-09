@@ -47,13 +47,25 @@
     max-width: 1000px;
     margin: 0 auto;
 
+    @media (min-width: 768px) {
+
+    }
+
     .header-content-inner {
-      height: 347px;
+      height: 170px;
       width: 100%;
       background-image: url(../img/header.png);
       background-position: center;
       margin: 60px auto 0;
       background-size: cover;
+
+      @media (min-width: 628px) {
+        height: 227px;
+      }
+
+      @media (min-width: 768px) {
+        height: 347px;
+      }
     }
   }
 }
