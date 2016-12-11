@@ -52,12 +52,16 @@
     }
 
     .header-content-inner {
-      height: 170px;
+      height: 140px;
       width: 100%;
       background-image: url(../img/header.png);
       background-position: center;
       margin: 60px auto 0;
       background-size: cover;
+
+      @media (min-width: 450px) {
+        height: 170px;
+      }
 
       @media (min-width: 628px) {
         height: 227px;
