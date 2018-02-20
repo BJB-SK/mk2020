@@ -9,6 +9,10 @@ facebook: https://www.facebook.com/events/143342099714814
 youtube: https://www.youtube.com/channel/UCDIZcaRg3nfl7aD9slJObTg
 twitter_username:
 github_username:
+description: Mládežnícka konferencia 2018 (16.-18.03 2018, BB). Nadupaný víkend plný zaujímavých tém, seminárov, chvál, vzácnych hostí a ďalších skvelých vecí. Neváhaj a zaregistruj sa čím skôr. Tešíme sa na Teba!
+image: http://res.cloudinary.com/m1n0/image/upload/v1519163502/banner_uyig8h.jpg
+title: MK2018
+year: 2018
 
 # Build settings
 markdown: kramdown
