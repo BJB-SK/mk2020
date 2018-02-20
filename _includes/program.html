@@ -14,76 +14,24 @@
         <h3>Rečníci</h3>
         <hr class="dark">
 
-        <div class="text-with-image pic-left col-xs-12">
-        <img src="img/program/porvos.jpg" class="img-responsive col-sm-3 col-xs-12" alt="" />
-          <div class="col-sm-9 col-xs-12">
-          <p class="text-faded">
-            Peter Orvoš / piatok večer<br />
-          </p>
-          <p class="a-bit-bigger">
-            <strong>Na... sleduj - Ježišovo neustále pozvanie vtedy a dnes</strong>
-          </p>
-          <p class="text-faded">
-            Bez ohľadu na to, čomu veríš,<br />
-            Bez ohľadu na to, ako sa správaš,<br />
-            Bez ohľadu na to, kto si<br />
-            Ježiš ťa volá… nasledovať<br />
-            <br />
-            Ježiš priťahoval hriešnikov a odpudzoval cirkevníkov. Byť dokonalým, múdrym ani pobožným nie je podmienka nasledovania. Byť nehodným je jediná podmienka nasledovať.
-          </p>
-          </div>
-        </div>
-
-        <div class="text-with-image pic-left col-xs-12">
-        <img src="img/program/jhaller.jpg" class="img-responsive col-sm-3 col-xs-12" alt="" />
-          <div class="col-sm-9 col-xs-12">
+        {% for speaker in site.data.speakers %}
+          <div class="text-with-image pic-left col-xs-12">
+          <img src="img/program/{{speaker.picture}}" class="img-responsive col-sm-3 col-xs-12" alt="" />
+            <div class="col-sm-9 col-xs-12">
             <p class="text-faded">
-              Jordan Haller / sobota ráno<br />
+              {{speaker.name}} / {{speaker.time}}<br />
             </p>
             <p class="a-bit-bigger">
-              <strong>Ďalší krok - Náboženstvo volá k zmene pred prijatím. Ježiš ľudí prijal a výsledkom bola zmena</strong>
+              <strong>{{speaker.title}}</strong>
             </p>
             <p class="text-faded">
-              Každý je pozvaný nasledovať. <br />
-              Nevyžaduje sa žiaden rituál, žiadna náboženská ceremónia, žiadne naučené modlitby. Len ochota nasledovať. Ježiš volá každého. Jeho objatie spôsobuje zmenu života. Všetky náboženstvá volajú po zmene, a potom po prijatí.
-              <br />
-              Kresťanstvo hovorí o prijatí, ktoré spôsobuje zmenu života.
+              {{speaker.text}}
             </p>
+            </div>
           </div>
-        </div>
-
-        <div class="text-with-image pic-left col-xs-12">
-        <img src="img/program/mmacak.jpg" class="img-responsive col-sm-3 col-xs-12" alt="" />
-          <div class="col-sm-9 col-xs-12">
-            <p class="text-faded">
-              Marek Macák / sobota večer
-            </p>
-            <p class="a-bit-bigger">
-              <strong>Unfollow - pred tým ako začneš, musíš niečo nechať</strong>
-            </p>
-            <p class="text-faded">
-              Každý kto sa v Novej Zmluve stretol s Kristom ostal zmenený. Kristus ťa prijíma takého aký si, ale miluje ťa príliš na to, aby ťa ponechal takého aký si. Bude sa ťa pýtať nepríjemné otázky. Zapichne ti kópiou do srdca. Ale bude to stáť za to.
-            </p>
-          </div>
-        </div>
-
-        <div class="text-with-image pic-left col-xs-12">
-        <img src="img/program/rnagypal.jpg" class="img-responsive col-sm-3 col-xs-12" alt="" />
-          <div class="col-sm-9 col-xs-12">
-            <p class="text-faded">
-              Richard Nagypál / nedeľa ráno<br />
-            </p>
-            <p class="a-bit-bigger">
-              <strong>Život, ktorý vyvoláva otázky</strong>
-            </p>
-            <p class="text-faded">
-              Kristus si od teba môže vyžiadať ďaleko viac ako si pripravený dať, ale môže ti dať nekonečne viac, ako sa odvažuješ prosiť. Pozýva ťa k životu, ktorý sa nebojí veci, ktorú potrebuješ zmeniť. K životu, ktorý vyvoláva otázky.
-            </p>
-          </div>
-        </div>
+        {% endfor %}
 
         <br />
-
       </div>
     </div>
   </div>
