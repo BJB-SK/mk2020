@@ -99,8 +99,58 @@ img.in-button {
 }
 
 #header-social {
-  margin: auto;
-  max-height: 120px;
+  max-height: 60px;
+  margin: 0 auto;
+
+  @media (min-width: 778px) {
+    margin-left: 10px;
+    max-height: 80px;
+    float: left;
+  }
+
+  @media (min-width: 992px) {
+    margin-left: 65px;
+    max-height: 100px;
+    float: left;
+  }
+}
+
+section#about {
+  min-height: 700px;
+  width: 100%;
+  padding-bottom: 0;
+  background-image: url(../img/arrows.png);
+  background-position: calc(50% - 78px) bottom;
+  background-repeat: no-repeat;
+
+  @media (min-width: 778px) {
+    min-height: 580px;
+    background-position: calc(50% - 200px) bottom;
+  }
+
+  @media (min-width: 992px) {
+    min-height: 540px;
+    background-position: calc(50% - 260px) bottom;
+  }
+
+
+  #logo {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-height: 140px;
+
+    @media (min-width: 778px) {
+      float: right;
+      margin-top: 240px;
+      max-height: 200px;
+    }
+
+    @media (min-width: 992px) {
+      float: right;
+      margin-top: 100px;
+      max-height: none;
+    }
+  }
 }
 
 /**
