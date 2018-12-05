@@ -23,6 +23,11 @@ img.in-button {
   .navbar-nav {
     a.page-scroll {
       color: $theme-dark;
+      padding: 15px 10px;
+
+      @media (min-width: 992px) {
+        padding: 15px;
+      }
 
       &:hover {
         color: rgba($theme-primary, 0.4);
@@ -126,6 +131,7 @@ section#about {
   background-image: url(../img/arrows.png);
   background-position: calc(50% - 78px) bottom;
   background-repeat: no-repeat;
+  padding-top: 55px;
 
   @media (min-width: 778px) {
     min-height: 580px;
@@ -145,13 +151,13 @@ section#about {
 
     @media (min-width: 778px) {
       float: right;
-      margin-top: 240px;
+      margin-top: 280px;
       max-height: 200px;
     }
 
     @media (min-width: 992px) {
       float: right;
-      margin-top: 100px;
+      margin-top: 145px;
       max-height: none;
     }
   }
