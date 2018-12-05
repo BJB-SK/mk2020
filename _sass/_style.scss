@@ -10,6 +10,10 @@ img.in-button {
   font-size: 18px;
 }
 
+.btn-alternative {
+  background-color: $theme-secondary;
+}
+
 /**
  * Navigation.
  */
@@ -209,6 +213,10 @@ section#about {
     .portfolio-box-caption-permanent {
       opacity: 0 !important;
     }
+  }
+
+  .portfolio-box-caption {
+    background-color: rgba($theme-secondary, 0.7);
   }
 }
 
