@@ -9,10 +9,10 @@ facebook: https://www.facebook.com/events/993799814144903
 youtube: https://www.youtube.com/channel/UCDIZcaRg3nfl7aD9slJObTg
 twitter_username:
 github_username:
-description: Mládežnícka konferencia 2019 (22.-24.02 2019, BB). Nadupaný víkend plný zaujímavých tém, seminárov, chvál, vzácnych hostí a ďalších skvelých vecí. Neváhaj a zaregistruj sa čím skôr. Tešíme sa na Teba!
+description: Mládežnícka konferencia 2020 (21.-23.02 2020, BB). Nadupaný víkend plný zaujímavých tém, seminárov, chvál, vzácnych hostí a ďalších skvelých vecí. Neváhaj a zaregistruj sa čím skôr. Tešíme sa na Teba!
 image: https://res.cloudinary.com/m1n0/image/upload/v1543962047/mk-2019-banner_mdgnn5.png
-title: MK 019
-year: 019
+title: MK 020
+year: "020"
 
 # Build settings
 markdown: kramdown
