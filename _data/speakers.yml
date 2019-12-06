@@ -7,22 +7,10 @@
 
 - name: TEDtalks
   time: sobota ráno
-  title: '"Nikto nech tebou nepohŕda pre tvoju mladosť. Ty sa však staň pre veriacich vzorom v reči, správaní, láske, vo viere a mravnej čistote." (1Tm 4:12)'
+  title: TED TALKS
   picture: ted-talks.png
   text: |
-
-    0. Úvod - Timotej Hanes
-    <br />
-    1. V reči – Darina Malá
-    <br />
-    2. V správaní – Peter Nagy
-    <br />
-    3. V láske – Miroslav Hrivnák
-    <br />
-    4. Vo viere - Michal Kevický
-    <br />
-    5. V mravnej čistote – Katka Azorová
-    <br />
+    Už čoskoro
 
 - name: Saška Hazlingerová
   time: sobota večer
@@ -38,15 +26,18 @@
   picture: ted-talks.png
   text: |
 
-    0. Úvod - Timotej Hanes
-    <br />
-    1. V reči – Darina Malá
-    <br />
-    2. V správaní – Peter Nagy
-    <br />
-    3. V láske – Miroslav Hrivnák
-    <br />
-    4. Vo viere - Michal Kevický
-    <br />
-    5. V mravnej čistote – Katka Azorová
-    <br />
+    Už čoskoro
+
+
+# 0. Úvod - Timotej Hanes
+# <br />
+# 1. V reči – Darina Malá
+# <br />
+# 2. V správaní – Peter Nagy
+# <br />
+# 3. V láske – Miroslav Hrivnák
+# <br />
+# 4. Vo viere - Michal Kevický
+# <br />
+# 5. V mravnej čistote – Katka Azorová
+# <br />
