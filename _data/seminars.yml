@@ -4,13 +4,13 @@
   description: |
     <strong>Viera je z počutia...</strong>
     <br /><br />
-    Rim. 10:17 Ak veríš v Ježiša Krista, znamená to, že ti niekto niekedy v živote povedal evanjelium, skrze ktoré si uveril. 
-    Následne Boh na nás pracuje a používa si nás, aby sa táto dobrá správa šírila ďalej. Ísť do ulíc a rozprávať sa s cudzími ľuďmi o 
-    Bohu vyžaduje odvahu. Nie je to o našich schopnostiach či o predošlých skúsenostiach, ale o Bohu, ktorý má moc a uschopňuje nás. 
+    Rim. 10:17 Ak veríš v Ježiša Krista, znamená to, že ti niekto niekedy v živote povedal evanjelium, skrze ktoré si uveril.
+    Následne Boh na nás pracuje a používa si nás, aby sa táto dobrá správa šírila ďalej. Ísť do ulíc a rozprávať sa s cudzími ľuďmi o
+    Bohu vyžaduje odvahu. Nie je to o našich schopnostiach či o predošlých skúsenostiach, ale o Bohu, ktorý má moc a uschopňuje nás.
     <br /><br />
-    Tento seminár nebude teoretický, ale praktický. Chceme spoločne vyjsť do ulíc a priniesť svetlo tomuto svetu. 
-    Ak ti príde, že je to na teba veľké sústo, budú k dispozícií skúsenejší ľudia, ku ktorým sa môžeš pripojiť a spoločne vo dvojiciach, 
-    trojiciach vyrazíme do mesta. 
+    Tento seminár nebude teoretický, ale praktický. Chceme spoločne vyjsť do ulíc a priniesť svetlo tomuto svetu.
+    Ak ti príde, že je to na teba veľké sústo, budú k dispozícií skúsenejší ľudia, ku ktorým sa môžeš pripojiť a spoločne vo dvojiciach,
+    trojiciach vyrazíme do mesta.
     <br /><br />
     <strong>Tak, čo, pridáš sa?</strong>
   about_speaker:
@@ -19,7 +19,14 @@
   title: Ekoviera
   picture: pazor.jpg
   description: |
-    My sme les, VLK, vegánstvo, permakultúra, pomalá móda, NEBALené... A kde sú kresťania?
+    My sme les, VLK, vegánstvo, permakultúra, pomalá móda, NEBALené...
+    <br /><br />
+    Vedci hovoria, že životný štýl našej západnej civilizácie je neudržateľný, že si o pár rokov úplne zničíme planétu.
+    Toto trápi mnohých ľudí - tvoria kampane, vychádzajú do ulíc, podpisujú petície. Zdá sa však, že medzi nimi nie je veľa kresťanov,
+    pričom práve ich by tento problém mal trápiť zrejme najviac a možno by práve oni mali byť v prvých radách protestných zhromaždení,
+    v prvých riadkoch petičných hárkov a vo vedení ochranárskych organizácií.
+    <br /><br />
+    Inými slovami, ak aktivisti protestujú, nemali by sa protestanti aktivizovať? Ak áno, ako?
   about_speaker:
 
 - speaker: Jordan Heller
@@ -40,5 +47,59 @@
     Keď sú zladené slová, sny a konanie človeka, jeho život má veľkú výpovednú hodnotu. Tento seminár je pre všetkých, ktorí po tom túžia.
   about_speaker:
 
+- speaker: Darina Malá
+  title: Dar v podobe "byť single"!
+  picture: dmala.jpg
+  description: |
+    Ako je to s tým darom singleness a darom manželstva? Ide naozaj len o obdobie čakania? Aké sú výhody ako aj nebezpečenstvá stavu slobodného?
+    <br /><br />
+    Seminár nie je len pre nezadaných, práve naopak! Budeme rozoberať biblický pohľad na oba statusy ako jeden zo spôsobov vyjadrenia Božej lásky k nám.
+
+  about_speaker:
+
+- speaker: Marek Macák
+  title: Závislosti v 21. Storočí
+  picture: mmacak.jpg
+  description: |
+    Žijeme v dobe, ktorá uctieva slobodu. Každá modla si vyberá svoju daň, a tak nám sloboda bez Krista do života priniesla neslobodu závislostí.
+    Kresťania nie sú v tomto smere nijak zvlášť imúnni. Závislosti sú duchovnou, duševnou aj fyzickou výzvou pre vačšinu z nás, a Kristus nás volá čeliť im a byť hlasom skutočnej slobody, ktorú si dnes vie predstaviť len málokto.
+    <br /><br />
+    Ako vypadá sloboda v Kristu, ako vypadá dynamika závislosti, ktorá si na nás robí zálusk, a ako je čeliť tu a teraz?
+
+  about_speaker:
 
 
+- speaker: Peter Orvoš
+  title: Správcovstvo financií (v bežnom živote)
+  picture: porvos.jpg
+  description: |
+    Ak je koreňom všetkého zlého milovanie peňazí, ale v dnešnom svete je takmer nemožné bez peňazí existovať, ako má kresťan balansovať medzi týmito mantinelmi?
+    Vylučujú sa vzájomne, alebo nie? Môže si kresťan požičať peniaze? Ak má kresťan dôverovať Bohu, že sa postará, je vôbec potrebné sporiť?
+    Aký priestor má štedrosť v živote človeka? Ako by mal vyzerať môj rozpočet? Je vôbec potrebné plánovať? A čo s investovaním?
+
+  about_speaker:
+
+- speaker: Tomáš Majer
+  title: Správcovstvo času
+  picture: tmajer.jpg
+  description: |
+    Ako mám všetko stíhať? Každý mi hovorí, čo je dôležité a nevyhnutné. Času je stále menej, ale toho, čo treba urobiť, viac a viac.
+    Čo je naozaj dôležité a čo sa môže odložiť na neskôr?
+    Ako sa z toho vymotať a znova nezamotať? Dá sa to robiť aj inak?
+    <br /><br />
+    Seminár o manažmente času s dôrazom nie na "ako stihnúť čo najviac", ale "Čo sú tie hlavné veci, ktoré by mi určite nemali ujsť."
+
+  about_speaker:
+
+
+- speaker: Viktor Svetský
+  title: Kto si a koľko stojíš?
+  picture: vsvetsky.jpg
+  description: |
+    Seminár na aktuálne témy sebavedomia, sebahodnoty a vnímania seba samého/samej. Dozviete sa aj aký je rozdiel medzi sekerou a smartfónom, a čo si má s tým všetkým kresťan(ka) počať.
+    Seminár povedie psychológ a psychoterapeut vo výcviku Viktor Svetský z BJB Viera.
+    <br /><br />
+    V rámci semináru prebehne aj aktivita, ktorá môže pomôcť dozvedieť sa viac o nás samých, o tom ako to sami so sebou v živote máme a čo na to všetko hovorí Boh.
+    Prineste si so sebou papier formátu A4 a ceruzku.
+
+  about_speaker:

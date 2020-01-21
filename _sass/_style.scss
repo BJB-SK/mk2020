@@ -152,6 +152,11 @@ section#about {
     background-position: calc(50%) 0px;
   }
 
+  @media (min-width: 1921px) {
+    min-height: 1263px;
+    background-position: calc(50%) 0px;
+  }
+
 
   #logo {
     margin: 0 auto;
